@@ -13,7 +13,7 @@ const LinkItem = (props) => {
                 p={2}
                 bg={active && "grassTeal"}
                 color={active ? "#202023" : inactiveColor}
-                target={props.href.includes("http") && "_blank"}
+                target={props.href.includes("http") ? "_blank" : "_self"}
                 {...props}
             >
                 {props.children}

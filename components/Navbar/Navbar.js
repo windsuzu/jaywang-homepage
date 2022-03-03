@@ -20,7 +20,10 @@ import ThemeToggleButton from "./ThemeToggleButton";
 
 const Item = (props) => (
     <NextLink href={props.href} passHref>
-        <MenuItem as={Link} target={props.href.includes("http") && "_blank"}>
+        <MenuItem
+            as={Link}
+            target={props.href.includes("http") ? "_blank" : "_self"}
+        >
             {props.label}
         </MenuItem>
     </NextLink>
