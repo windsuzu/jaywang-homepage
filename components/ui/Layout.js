@@ -1,6 +1,6 @@
 import { Box, Container } from "@chakra-ui/react";
 import Head from "next/head";
-import Navbar from "../Navbar";
+import Navbar from "../Navbar/Navbar";
 
 const Layout = (props) => {
     return (

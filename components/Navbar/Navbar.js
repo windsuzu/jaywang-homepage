@@ -1,8 +1,7 @@
-import Logo from "./Navbar/Logo";
+import Logo from "./Logo";
 import {
     Box,
     Container,
-    Heading,
     Flex,
     Stack,
     Menu,
@@ -13,9 +12,10 @@ import {
     useColorModeValue,
     IconButton,
 } from "@chakra-ui/react";
-import LinkItem from "./Navbar/LinkItem";
+import LinkItem from "./LinkItem";
 import NextLink from "next/link";
 import { HamburgerIcon } from "@chakra-ui/icons";
+import { IoLogoGithub } from "react-icons/io5";
 
 const Item = (props) => (
     <NextLink href={props.href} passHref>
@@ -57,7 +57,14 @@ const Navbar = (props) => {
                 >
                     <LinkItem href="/works">Works</LinkItem>
                     <LinkItem href="/posts">Posts</LinkItem>
-                    <LinkItem href="https://github.com/windsuzu">
+                    <LinkItem
+                        href="https://github.com/windsuzu"
+                        display="inline-flex"
+                        alignItems="center"
+                        style={{ gap: 4 }}
+                        pl={2}
+                    >
+                        <IoLogoGithub />
                         Github
                     </LinkItem>
                 </Stack>
