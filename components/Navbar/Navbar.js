@@ -16,6 +16,7 @@ import LinkItem from "./LinkItem";
 import NextLink from "next/link";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { IoLogoGithub } from "react-icons/io5";
+import ThemeToggleButton from "./ThemeToggleButton";
 
 const Item = (props) => (
     <NextLink href={props.href} passHref>
@@ -70,8 +71,7 @@ const Navbar = (props) => {
                 </Stack>
 
                 <Box flex={1} align="right">
-                    {/* ThemeToggleButton */}
-
+                    <ThemeToggleButton />
                     <Box ml={2} display={{ base: "inline-block", md: "none" }}>
                         <Menu isLazy id="navbar-menu">
                             <MenuButton

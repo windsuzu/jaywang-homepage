@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 const LinkItem = (props) => {
     const router = useRouter();
     const active = router.pathname === props.href;
-    const inactiveColor = useColorModeValue("gray.200", "whiteAlpha.900");
+    const inactiveColor = useColorModeValue("gray200", "whiteAlpha.900");
 
     return (
         <NextLink href={props.href} passHref scroll={false}>
