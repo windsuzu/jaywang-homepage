@@ -10,7 +10,7 @@ const Layout = (props) => {
                     name="viewport"
                     content="width=device-width, initial-scale=1"
                 />
-                <title>Jay Wang - Homepage</title>
+                <title>Homepage - Jay Wang</title>
             </Head>
             <Box as="main" pb={8}>
                 <Navbar />
