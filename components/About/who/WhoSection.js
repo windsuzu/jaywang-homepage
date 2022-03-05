@@ -2,11 +2,11 @@ import { Heading } from "@chakra-ui/react";
 import Section from "../../ui/Section";
 import PortfolioButton from "./PortfolioButton";
 
-const WorkSection = ({ delay }) => {
+const WhoSection = ({ delay }) => {
     return (
         <Section delay={delay}>
             <Heading as="h3" variant="section-title">
-                Work
+                Who am I?
             </Heading>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -22,4 +22,4 @@ const WorkSection = ({ delay }) => {
     );
 };
 
-export default WorkSection;
+export default WhoSection;

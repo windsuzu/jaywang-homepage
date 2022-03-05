@@ -1,0 +1,14 @@
+[
+    {
+        "id": "flutterpedia",
+        "title": "Flutterpedia",
+        "thumbnail": "/images/works/flutterpedia-cover.jpg",
+        "description": "Flutterpedia aims to collect, record, implement and instruct all sorts of Flutter implementation techniques. It includes animations, utilities, design patterns, etc. Please use it as a toolbox to facilitate your Flutter development."
+    },
+    {
+        "id": "flutterpedia2",
+        "title": "Flutterpedia",
+        "thumbnail": "/images/works/flutterpedia-cover.jpg",
+        "description": "Flutterpedia aims to collect, record, implement and instruct all sorts of Flutter implementation techniques. It includes animations, utilities, design patterns, etc. Please use it as a toolbox to facilitate your Flutter development."
+    }
+]

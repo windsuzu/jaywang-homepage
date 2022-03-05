@@ -5,9 +5,9 @@ import {
     useColorModeValue,
     Image,
 } from "@chakra-ui/react";
-import BioSection from "../components/About/Bio/BioSection";
-import InterestSection from "../components/About/Interest/InterestSection";
-import WorkSection from "../components/About/Work/WorkSection";
+import BioSection from "../components/about/bio/BioSection";
+import InterestSection from "../components/about/interest/InterestSection";
+import WhoSection from "../components/about/who/WhoSection";
 
 export default function Home() {
     return (
@@ -51,7 +51,7 @@ export default function Home() {
                     </Box>
                 </Box>
             </Box>
-            <WorkSection delay={0.1} />
+            <WhoSection delay={0.1} />
             <BioSection delay={0.4} />
             <InterestSection delay={0.7} />
         </Container>
