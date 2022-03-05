@@ -18,6 +18,8 @@ const styles = {
     }),
 };
 
+// Customizing single components
+// https://chakra-ui.com/docs/styled-system/theming/customize-theme#customizing-single-components
 const components = {
     Heading: {
         variants: {
@@ -40,6 +42,8 @@ const components = {
     },
 };
 
+// Customizing theme tokens
+// https://chakra-ui.com/docs/styled-system/theming/customize-theme#customizing-theme-tokens
 const fonts = {
     heading: "'M PLUS Rounded 1c'",
 };
