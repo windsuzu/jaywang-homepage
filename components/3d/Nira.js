@@ -13,7 +13,7 @@ const Nira = () => {
     const [loading, setLoading] = useState(true);
     const [renderer, setRenderer] = useState();
     const [_camera, setCamera] = useState();
-    const [target] = useState(new THREE.Vector3(0, 0.8, 0.1));
+    const [target] = useState(new THREE.Vector3(0.1, 0.8, 0.1));
     const [initialCameraPosition] = useState(
         new THREE.Vector3(
             20 * Math.sin(0.2 * Math.PI),
@@ -103,7 +103,6 @@ const Nira = () => {
             };
 
             return () => {
-                console.log("unmount");
                 cancelAnimationFrame(req);
                 renderer.dispose();
             };
