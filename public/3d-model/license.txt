@@ -1,0 +1,11 @@
+Model Information:
+* title:	nirachan - Byosin wo Kamu
+* source:	https://sketchfab.com/3d-models/nirachan-byosin-wo-kamu-d53ef33d1ee444639d317a7cb6b3eecf
+* author:	KRei (https://sketchfab.com/krei1012)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "nirachan - Byosin wo Kamu" (https://sketchfab.com/3d-models/nirachan-byosin-wo-kamu-d53ef33d1ee444639d317a7cb6b3eecf) by KRei (https://sketchfab.com/krei1012) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
