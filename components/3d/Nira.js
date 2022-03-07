@@ -71,7 +71,7 @@ const Nira = () => {
             controls.target = target;
             setControls(controls);
 
-            loadGLTFModel(scene, "3d-model/scene.gltf", {
+            loadGLTFModel(scene, "/3d-model/scene.gltf", {
                 receiveShadow: false,
                 castShadow: false,
             }).then(() => {
