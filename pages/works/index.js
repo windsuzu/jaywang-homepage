@@ -18,10 +18,10 @@ const WorksPage = () => {
                             <Section key={item.id}>
                                 <GridItem
                                     title={item.title}
-                                    thumb={item.thumbnail}
+                                    thumb={item.cover}
                                     link={`works/${item.id}`}
                                 >
-                                    {item.description}
+                                    {item.desc_zh}
                                 </GridItem>
                             </Section>
                         );

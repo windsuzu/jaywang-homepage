@@ -62,14 +62,14 @@ const Navbar = (props) => {
                     <LinkItem href="/works">Works</LinkItem>
                     <LinkItem href="/posts">Posts</LinkItem>
                     <LinkItem
-                        href="https://github.com/windsuzu"
+                        href="https://github.com/windsuzu/"
                         display="inline-flex"
                         alignItems="center"
                         style={{ gap: 4 }}
                         pl={2}
                     >
                         <IoLogoGithub />
-                        Github
+                        Source
                     </LinkItem>
                 </Stack>
 
@@ -89,7 +89,7 @@ const Navbar = (props) => {
                                 <Item href="/posts" label="Posts" />
                                 <Item
                                     href="https://github.com/windsuzu"
-                                    label="Github"
+                                    label="Source"
                                 />
                             </MenuList>
                         </Menu>
