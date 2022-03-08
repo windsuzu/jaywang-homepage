@@ -1,7 +1,8 @@
 [
     {
         "id": "flutterpedia",
-        "title": "Flutterpedia",
+        "title_zh": "Flutterpedia",
+        "title_en": "Flutterpedia",
         "time": "2019",
         "stack": "Flutter",
         "platform": "iOS, Android, Desktop, Web",

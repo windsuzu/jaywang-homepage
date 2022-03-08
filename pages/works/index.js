@@ -1,7 +1,7 @@
 import { Container, Heading, SimpleGrid } from "@chakra-ui/react";
 import Section from "../../components/ui/Section";
 import WorksModel from "../../model/works.json";
-import GridItem from "../../components/ui/GridItem";
+import { WorkGridItem } from "../../components/ui/GridItem";
 import Page from "../../components/layouts/Page";
 
 const WorksPage = () => {
@@ -16,13 +16,13 @@ const WorksPage = () => {
                     {WorksModel.map((item) => {
                         return (
                             <Section key={item.id}>
-                                <GridItem
+                                <WorkGridItem
                                     title={item.title}
                                     thumb={item.cover}
                                     link={`works/${item.id}`}
                                 >
                                     {item.desc_zh}
-                                </GridItem>
+                                </WorkGridItem>
                             </Section>
                         );
                     })}
