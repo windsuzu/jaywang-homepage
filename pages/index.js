@@ -9,6 +9,7 @@ import BioSection from "../components/about/bio/BioSection";
 import InterestSection from "../components/about/interest/InterestSection";
 import WhoSection from "../components/about/who/WhoSection";
 import Page from "../components/layouts/Page";
+import AckSection from "../components/about/ack/AckSection";
 
 export default function Home() {
     return (
@@ -56,6 +57,7 @@ export default function Home() {
                 <WhoSection delay={0.1} />
                 <BioSection delay={0.4} />
                 <InterestSection delay={0.7} />
+                <AckSection delay={1} />
             </Container>
         </Page>
     );

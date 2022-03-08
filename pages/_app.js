@@ -1,8 +1,11 @@
-import { ChakraProvider } from "@chakra-ui/react";
-import theme from "../libs/theme";
 import Fonts from "../components/ui/Fonts";
 import Layout from "../components/layouts/Layout";
 import { AnimatePresence } from "framer-motion";
+import Chakra from "../components/ui/Chakra";
+
+if (typeof window !== "undefined") {
+    window.history.scrollRestoration = "manual";
+}
 
 const exitCompleteHandler = () => {
     if (typeof window !== "undefined") {
@@ -12,7 +15,7 @@ const exitCompleteHandler = () => {
 
 function MyApp({ Component, pageProps, router }) {
     return (
-        <ChakraProvider theme={theme}>
+        <Chakra cookies={pageProps.cookies}>
             <Fonts />
             <Layout>
                 <AnimatePresence
@@ -23,7 +26,7 @@ function MyApp({ Component, pageProps, router }) {
                     <Component {...pageProps} key={router.pathname} />
                 </AnimatePresence>
             </Layout>
-        </ChakraProvider>
+        </Chakra>
     );
 }
 
