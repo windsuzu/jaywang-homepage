@@ -13,11 +13,14 @@
         "full_desc_en": "Flutterpedia aims to collect, record, implement and instruct all sorts of Flutter implementation techniques. It includes animations, utilities, design patterns, etc. Please use it as a toolbox to facilitate your Flutter development.",
         "cover": "/images/works/flutterpedia/cover.jpg",
         "web_screenshots": [
-            "/images/works/flutterpedia/web-1.png",
-            "/images/works/flutterpedia/web-2.png",
-            "/images/works/flutterpedia/web-3.png"
+            "/images/works/flutterpedia/w1.png",
+            "/images/works/flutterpedia/w2.png",
+            "/images/works/flutterpedia/w3.png"
         ],
-        "phone_screenshots": []
+        "phone_screenshots": [
+            "/images/works/flutterpedia/m1.png",
+            "/images/works/flutterpedia/m2.png"
+        ]
     },
     {
         "id": "flutterpedia2",
@@ -40,7 +43,7 @@
         "phone_screenshots": []
     },
     {
-        "id": "flutterpedia",
+        "id": "flutterpedia3",
         "title_zh": "Flutterpedia",
         "title_en": "Flutterpedia",
         "time": "2019",

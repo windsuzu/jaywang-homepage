@@ -59,18 +59,32 @@ const WorkDetailPage = (props) => {
 
                 <Paragraph>{full_desc_zh}</Paragraph>
 
-                {cover && <WorkImage src={cover} alt={title} my={6} />}
+                {cover && (
+                    <WorkImage src={cover} alt={title} my={6} w={720} h={400} />
+                )}
 
                 {web_screenshots &&
                     web_screenshots.map((url) => (
-                        <WorkImage src={url} key={url} alt={title} my={4} />
+                        <WorkImage
+                            src={url}
+                            key={url}
+                            alt={title}
+                            my={4}
+                            w={1024}
+                            h={608}
+                        />
                     ))}
 
-                {/* TODO fix phone arrangement */}
                 {phone_screenshots && (
-                    <SimpleGrid columns={2} gap={2}>
+                    <SimpleGrid columns={2} gap={2} my={4}>
                         {phone_screenshots.map((url) => (
-                            <WorkImage src={url} key={url} alt={title} />
+                            <WorkImage
+                                src={url}
+                                key={url}
+                                alt={title}
+                                w={342}
+                                h={640}
+                            />
                         ))}
                     </SimpleGrid>
                 )}

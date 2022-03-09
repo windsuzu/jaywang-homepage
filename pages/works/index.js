@@ -13,13 +13,13 @@ const WorksPage = () => {
                 </Heading>
 
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
-                    {WorksModel.map((item) => {
+                    {WorksModel.map((item, idx) => {
                         return (
-                            <Section key={item.id}>
+                            <Section key={item.id} delay={0.15 * idx}>
                                 <WorkGridItem
                                     thumb={item.cover}
                                     title={item.title}
-                                    link={`works/${item.id}`}
+                                    link={`/works/${item.id}`}
                                 >
                                     {item.desc_zh}
                                 </WorkGridItem>

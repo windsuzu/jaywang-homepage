@@ -39,8 +39,8 @@ export const WorkImage = (props) => {
             <Image
                 src={props.src}
                 alt={props.alt}
-                width={600}
-                height={300}
+                width={props.w}
+                height={props.h}
                 placeholder="blur"
                 blurDataURL={props.src}
                 loading="lazy"

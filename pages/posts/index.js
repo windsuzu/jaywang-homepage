@@ -11,10 +11,11 @@ const PostsPage = () => {
                 <Heading as="h3" fontSize={20} mb={4}>
                     My Posts
                 </Heading>
+
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
-                    {PostsModel.map((item) => {
+                    {PostsModel.map((item, idx) => {
                         return (
-                            <Section key={item.id}>
+                            <Section key={item.id} delay={0.15 * idx}>
                                 <PostGridItem
                                     title={item["title_zh"]}
                                     thumb={item.cover}
