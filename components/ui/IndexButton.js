@@ -3,16 +3,16 @@ import { Box, Button } from "@chakra-ui/react";
 import Link from "next/link";
 import React from "react";
 
-const PortfolioButton = () => {
+const IndexButton = (props) => {
     return (
         <Box align="center" my={4}>
-            <Link href="/works" scroll={false} passHref>
+            <Link href={props.link} scroll={false} passHref>
                 <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-                    My portfolio
+                    {props.children}
                 </Button>
             </Link>
         </Box>
     );
 };
 
-export default PortfolioButton;
+export default IndexButton;

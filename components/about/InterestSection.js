@@ -1,8 +1,8 @@
 import { Heading } from "@chakra-ui/react";
 import React from "react";
-import Section from "../../ui/Section";
 import Link from "next/link";
-import Paragraph from "../../ui/Paragraph";
+import Section from "../ui/Section";
+import Paragraph from "../ui/Paragraph";
 
 const InterestSection = ({ delay }) => {
     return (

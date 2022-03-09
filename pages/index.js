@@ -6,11 +6,12 @@ import {
     Image,
 } from "@chakra-ui/react";
 import { useRouter } from "next/router";
-import BioSection from "../components/about/bio/BioSection";
-import InterestSection from "../components/about/interest/InterestSection";
-import WhoSection from "../components/about/who/WhoSection";
+import InterestSection from "../components/about/InterestSection";
+import BioSection from "../components/about/BioSection";
+import WhoSection from "../components/about/WhoSection";
+import WebSection from "../components/about/WebSection";
+import AckSection from "../components/about/AckSection";
 import Page from "../components/layouts/Page";
-import AckSection from "../components/about/ack/AckSection";
 import { zh } from "../locales/zh";
 import { en } from "../locales/en";
 
@@ -62,9 +63,10 @@ export default function Home() {
                     </Box>
                 </Box>
                 <WhoSection delay={0.1} />
-                <BioSection delay={0.4} />
-                <InterestSection delay={0.7} />
-                <AckSection delay={1} />
+                <BioSection delay={0.3} />
+                <InterestSection delay={0.5} />
+                <WebSection delay={0.7} />
+                <AckSection delay={0.9} />
             </Container>
         </Page>
     );

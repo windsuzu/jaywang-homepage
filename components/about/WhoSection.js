@@ -1,6 +1,6 @@
 import { Heading } from "@chakra-ui/react";
-import Section from "../../ui/Section";
-import PortfolioButton from "./PortfolioButton";
+import Section from "../ui/Section";
+import IndexButton from "../ui/IndexButton";
 
 const WhoSection = ({ delay }) => {
     return (
@@ -17,7 +17,7 @@ const WhoSection = ({ delay }) => {
                 a laudantium sequi dolor ipsum numquam ipsam mollitia
                 voluptatibus.
             </p>
-            <PortfolioButton />
+            <IndexButton link="/works">My Portfolio</IndexButton>
         </Section>
     );
 };

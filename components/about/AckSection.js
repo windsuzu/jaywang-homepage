@@ -1,7 +1,7 @@
 import { Heading, Link, List, ListIcon, ListItem } from "@chakra-ui/react";
 import React from "react";
-import Section from "../../ui/Section";
 import { MdFavorite } from "react-icons/md";
+import Section from "../ui/Section";
 
 const AckSection = ({ delay }) => {
     return (

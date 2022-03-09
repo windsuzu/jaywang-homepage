@@ -1,5 +1,5 @@
 import { Heading } from "@chakra-ui/react";
-import Section from "../../ui/Section";
+import Section from "../ui/Section";
 import { BioRow, BioYear } from "./Bio";
 
 const BioSection = ({ delay }) => {
