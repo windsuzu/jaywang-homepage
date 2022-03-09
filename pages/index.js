@@ -5,13 +5,20 @@ import {
     useColorModeValue,
     Image,
 } from "@chakra-ui/react";
+import { useRouter } from "next/router";
 import BioSection from "../components/about/bio/BioSection";
 import InterestSection from "../components/about/interest/InterestSection";
 import WhoSection from "../components/about/who/WhoSection";
 import Page from "../components/layouts/Page";
 import AckSection from "../components/about/ack/AckSection";
+import { zh } from "../locales/zh";
+import { en } from "../locales/en";
 
 export default function Home() {
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === "zh" ? zh : en;
+
     return (
         <Page>
             <Container>
@@ -22,7 +29,7 @@ export default function Home() {
                     p={3}
                     my={6}
                 >
-                    Hello, I&apos;m a front-end developer from Taiwan!
+                    {t.greet}
                 </Box>
                 <Box display={{ md: "flex" }}>
                     <Box flexGrow={1}>

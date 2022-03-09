@@ -16,7 +16,7 @@ const PostsPage = () => {
                         return (
                             <Section key={item.id}>
                                 <PostGridItem
-                                    title={item.title_zh}
+                                    title={item["title_zh"]}
                                     thumb={item.cover}
                                     link={item.url}
                                 />
