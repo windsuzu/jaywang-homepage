@@ -17,8 +17,8 @@ const WorksPage = () => {
                         return (
                             <Section key={item.id}>
                                 <WorkGridItem
-                                    title={item.title}
                                     thumb={item.cover}
+                                    title={item.title}
                                     link={`works/${item.id}`}
                                 >
                                     {item.desc_zh}

@@ -15,7 +15,7 @@ const styles = {
         body: {
             bg: mode("#f0e7db", "#202023")(props),
         },
-        ".grid-item-thumb": {
+        ".rounded-image": {
             borderRadius: "12px",
         },
     }),

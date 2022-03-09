@@ -56,12 +56,17 @@ const WorkDetailPage = (props) => {
                         </ListItem>
                     )}
                 </List>
+
                 <Paragraph>{full_desc_zh}</Paragraph>
+
                 {cover && <WorkImage src={cover} alt={title} my={6} />}
+
                 {web_screenshots &&
                     web_screenshots.map((url) => (
                         <WorkImage src={url} key={url} alt={title} my={4} />
                     ))}
+
+                {/* TODO fix phone arrangement */}
                 {phone_screenshots && (
                     <SimpleGrid columns={2} gap={2}>
                         {phone_screenshots.map((url) => (

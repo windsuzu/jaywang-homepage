@@ -21,8 +21,42 @@
     },
     {
         "id": "flutterpedia2",
-        "title": "Flutterpedia",
-        "thumbnail": "/images/works/flutterpedia-cover.jpg",
-        "description": "Flutterpedia aims to collect, record, implement and instruct all sorts of Flutter implementation techniques. It includes animations, utilities, design patterns, etc. Please use it as a toolbox to facilitate your Flutter development."
+        "title_zh": "Flutterpedia",
+        "title_en": "Flutterpedia",
+        "time": "2019",
+        "stack": "Flutter",
+        "platform": "iOS, Android, Desktop, Web",
+        "source": "https://github.com/windsuzu/Flutterpedia",
+        "desc_zh": "Flutterpedia 包含各種實作 Flutter 會用到的 widgets 和技術。不但含有各種詳細解說，也能作為工具箱使用。",
+        "desc_en": "Flutterpedia contains widgets and technologies that are used to implement Flutter. Not only does it contain detailed tutorials, but it can also be used as a toolkit.",
+        "full_desc_zh": "Flutterpeida 旨在收集、記錄、應用和教學各種 Flutter 的實作技術。包括動畫、設計模式、和各種實用工具等。你也可以把他當作一個工具箱，方便您的 Flutter 開發。",
+        "full_desc_en": "Flutterpedia aims to collect, record, implement and instruct all sorts of Flutter implementation techniques. It includes animations, utilities, design patterns, etc. Please use it as a toolbox to facilitate your Flutter development.",
+        "cover": "/images/works/flutterpedia/cover.jpg",
+        "web_screenshots": [
+            "/images/works/flutterpedia/web-1.png",
+            "/images/works/flutterpedia/web-2.png",
+            "/images/works/flutterpedia/web-3.png"
+        ],
+        "phone_screenshots": []
+    },
+    {
+        "id": "flutterpedia",
+        "title_zh": "Flutterpedia",
+        "title_en": "Flutterpedia",
+        "time": "2019",
+        "stack": "Flutter",
+        "platform": "iOS, Android, Desktop, Web",
+        "source": "https://github.com/windsuzu/Flutterpedia",
+        "desc_zh": "Flutterpedia 包含各種實作 Flutter 會用到的 widgets 和技術。不但含有各種詳細解說，也能作為工具箱使用。",
+        "desc_en": "Flutterpedia contains widgets and technologies that are used to implement Flutter. Not only does it contain detailed tutorials, but it can also be used as a toolkit.",
+        "full_desc_zh": "Flutterpeida 旨在收集、記錄、應用和教學各種 Flutter 的實作技術。包括動畫、設計模式、和各種實用工具等。你也可以把他當作一個工具箱，方便您的 Flutter 開發。",
+        "full_desc_en": "Flutterpedia aims to collect, record, implement and instruct all sorts of Flutter implementation techniques. It includes animations, utilities, design patterns, etc. Please use it as a toolbox to facilitate your Flutter development.",
+        "cover": "/images/works/flutterpedia/cover.jpg",
+        "web_screenshots": [
+            "/images/works/flutterpedia/web-1.png",
+            "/images/works/flutterpedia/web-2.png",
+            "/images/works/flutterpedia/web-3.png"
+        ],
+        "phone_screenshots": []
     }
 ]

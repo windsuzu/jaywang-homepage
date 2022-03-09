@@ -1,5 +1,6 @@
-import { Box, LinkBox, LinkOverlay, Text, Image } from "@chakra-ui/react";
+import { Box, LinkBox, LinkOverlay, Text } from "@chakra-ui/react";
 import Link from "next/link";
+import Image from "next/image";
 
 export const PostGridItem = (props) => (
     <Box w="100%" textAlign="center">
@@ -7,9 +8,12 @@ export const PostGridItem = (props) => (
             <Image
                 alt={props.title}
                 src={props.thumb}
+                width={720}
+                height={400}
                 placeholder="blur"
+                blurDataURL={props.thumb}
+                className="rounded-image"
                 loading="lazy"
-                className="grid-item-thumb"
             />
             <LinkOverlay href={props.link} target="_blank">
                 <Text mt={2}>{props.title}</Text>
@@ -27,9 +31,12 @@ export const WorkGridItem = (props) => {
                     <Image
                         alt={props.title}
                         src={props.thumb}
+                        width={720}
+                        height={400}
                         placeholder="blur"
+                        blurDataURL={props.thumb}
+                        className="rounded-image"
                         loading="lazy"
-                        className="grid-item-thumb"
                     />
                     <LinkOverlay href={props.link}>
                         <Text mt={2} fontSize={20}>
