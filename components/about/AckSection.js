@@ -3,11 +3,11 @@ import React from "react";
 import { MdFavorite } from "react-icons/md";
 import Section from "../ui/Section";
 
-const AckSection = ({ delay }) => {
+const AckSection = ({ delay, title }) => {
     return (
         <Section delay={delay}>
             <Heading as="h3" variant="section-title">
-                Thanks
+                {title}
             </Heading>
 
             <List my={4}>

@@ -1,26 +1,18 @@
-import { Heading } from "@chakra-ui/react";
+import { Heading, List, ListItem } from "@chakra-ui/react";
 import React from "react";
-import Link from "next/link";
 import Section from "../ui/Section";
-import Paragraph from "../ui/Paragraph";
 
-const InterestSection = ({ delay }) => {
+const InterestSection = ({ delay, title, interests }) => {
     return (
         <Section delay={delay}>
             <Heading as="h3" variant="section-title">
-                I ♥
+                {title}
             </Heading>
-            <Paragraph>
-                Art, Music,{" "}
-                <Link href="https://illust.odoruinu.net/" target="_blank">
-                    Drawing
-                </Link>
-                , Playing Drums,{" "}
-                <Link href="https://500px.com/p/craftzdog" target="_blank">
-                    Photography
-                </Link>
-                , Leica, Machine Learning
-            </Paragraph>
+            <List>
+                {interests.map((interest, idx) => (
+                    <ListItem key={idx}>{interest}</ListItem>
+                ))}
+            </List>
         </Section>
     );
 };

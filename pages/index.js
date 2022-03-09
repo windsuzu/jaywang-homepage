@@ -20,6 +20,25 @@ export default function Home() {
     const { locale } = router;
     const t = locale === "zh" ? zh : en;
 
+    const lifes = [
+        [1996, t.life1],
+        [2016, t.life2],
+        [2017, t.life3],
+        [2019, t.life4],
+        [2021, t.life5],
+        [2021, t.life6],
+    ];
+
+    const interests = [
+        t.interest1,
+        t.interest2,
+        t.interest3,
+        t.interest4,
+        t.interest5,
+        t.interest6,
+        t.interest7,
+    ];
+
     return (
         <Page>
             <Container>
@@ -35,7 +54,7 @@ export default function Home() {
                 <Box display={{ md: "flex" }}>
                     <Box flexGrow={1}>
                         <Heading as="h2">Jay Wang</Heading>
-                        <p>Enthusiastic Learner ( Web, Mobile, ML/DL )</p>
+                        <p>{t.identity}</p>
                     </Box>
                     <Box
                         flexShrink={0}
@@ -62,11 +81,15 @@ export default function Home() {
                         </Box>
                     </Box>
                 </Box>
-                <WhoSection delay={0.1} />
-                <BioSection delay={0.3} />
-                <InterestSection delay={0.5} />
-                <WebSection delay={0.7} />
-                <AckSection delay={0.9} />
+                <WhoSection delay={0.1} title={t.section1} info={t.me} />
+                <BioSection delay={0.3} title={t.section2} lifes={lifes} />
+                <InterestSection
+                    delay={0.5}
+                    title={t.section3}
+                    interests={interests}
+                />
+                <WebSection delay={0.7} title={t.section4} />
+                <AckSection delay={0.9} title={t.section5} />
             </Container>
         </Page>
     );

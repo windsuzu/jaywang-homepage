@@ -13,7 +13,7 @@ const WebSection = (props) => {
     return (
         <Section delay={props.delay}>
             <Heading as="h3" variant="section-title">
-                Reach Me
+                {props.title}
             </Heading>
             <List>
                 <ListItem>
