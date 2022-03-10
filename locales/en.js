@@ -6,7 +6,7 @@ export const en = {
     section3: "I ♥",
     section4: "Reach Me",
     section5: "Thanks ♥♥♥",
-    me: "Jay is a software engineer with a passion for exploring new technologies. His development experience covers application design for mobile devices (Android/iOS), research and application of artificial intelligence (ML/DL/NLP/CV), and designing beautiful websites using frameworks like React/Node/MongoDB. Jay is smart 🤥 enough to search, learn, and solve problems swiftly and likes to find the shortest and easiest development path to avoid heavy workload 😝.",
+    me: "Jay is a software engineer with a passion for exploring new technologies. His development experience covers application design for mobile devices (Android/iOS), research and application of artificial intelligence (ML/DL/NLP/CV), and designing beautiful websites using frameworks like React/Node/MongoDB. Jay is smart 🤥 enough to search, learn, and solve problems swiftly and likes to find the shortest and easiest development path to avoid heavy, redundant workload 😝.",
     life1: "Born in Taiwan",
     life2: "Graduated from Taichung University of Science and Technology, Department of Information Management, 5-year Junior College Program",
     life3: "Worked at Triotechno Technology as a Android/iOS developer",

@@ -22,3 +22,4 @@ const NotFound = () => (
 );
 
 export default NotFound;
+export { getInitialProps } from "../components/ui/Chakra";

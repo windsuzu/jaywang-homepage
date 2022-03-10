@@ -3,8 +3,13 @@ import Section from "../../components/ui/Section";
 import WorksModel from "../../model/works.json";
 import { WorkGridItem } from "../../components/ui/GridItem";
 import Page from "../../components/layouts/Page";
+import { useRouter } from "next/router";
 
 const WorksPage = () => {
+    const router = useRouter();
+    const { locale } = router;
+    const desc = locale === "zh" ? "desc_zh" : "desc_en";
+
     return (
         <Page title="Works">
             <Container>
@@ -21,7 +26,7 @@ const WorksPage = () => {
                                     title={item.title}
                                     link={`/works/${item.id}`}
                                 >
-                                    {item.desc_zh}
+                                    {item[desc]}
                                 </WorkGridItem>
                             </Section>
                         );

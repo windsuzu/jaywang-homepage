@@ -2,6 +2,7 @@ import WorksModel from "../../model/works.json";
 import Page from "../../components/layouts/Page";
 import { Title, Meta, WorkImage } from "../../components/works/workdetail";
 import Paragraph from "../../components/ui/Paragraph";
+import { useRouter } from "next/router";
 import {
     Badge,
     Container,
@@ -14,7 +15,6 @@ import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 const WorkDetailPage = (props) => {
     const {
-        id,
         title,
         time,
         platform,
@@ -26,6 +26,10 @@ const WorkDetailPage = (props) => {
         web_screenshots,
         phone_screenshots,
     } = props.data;
+
+    const router = useRouter();
+    const { locale } = router;
+    const fullDesc = locale === "zh" ? full_desc_zh : full_desc_en;
 
     return (
         <Page title={title}>
@@ -57,7 +61,7 @@ const WorkDetailPage = (props) => {
                     )}
                 </List>
 
-                <Paragraph>{full_desc_zh}</Paragraph>
+                <Paragraph>{fullDesc}</Paragraph>
 
                 {cover && (
                     <WorkImage src={cover} alt={title} my={6} w={720} h={400} />

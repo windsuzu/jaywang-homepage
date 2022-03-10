@@ -3,8 +3,13 @@ import Page from "../../components/layouts/Page";
 import Section from "../../components/ui/Section";
 import PostsModel from "../../model/posts.json";
 import { PostGridItem } from "../../components/ui/GridItem";
+import { useRouter } from "next/router";
 
 const PostsPage = () => {
+    const router = useRouter();
+    const { locale } = router;
+    const title = locale === "zh" ? "title_zh" : "title_en";
+
     return (
         <Page title="Posts">
             <Container>
@@ -17,7 +22,7 @@ const PostsPage = () => {
                         return (
                             <Section key={item.id} delay={0.15 * idx}>
                                 <PostGridItem
-                                    title={item["title_zh"]}
+                                    title={item[title]}
                                     thumb={item.cover}
                                     link={item.url}
                                 />

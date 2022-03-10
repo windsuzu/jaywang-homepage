@@ -1,13 +1,6 @@
 import { extendTheme } from "@chakra-ui/react";
 import { mode } from "@chakra-ui/theme-tools";
 
-// ColorMode
-// https://chakra-ui.com/docs/features/color-mode#updating-the-theme-config
-const config = {
-    initialColorMode: "light",
-    useSystemColorMode: true,
-};
-
 // Global Styles
 // https://chakra-ui.com/docs/features/global-styles
 const styles = {
@@ -53,6 +46,13 @@ const fonts = {
 
 const colors = {
     grassTeal: "#88ccca",
+};
+
+// ColorMode
+// https://chakra-ui.com/docs/features/color-mode#updating-the-theme-config
+const config = {
+    initialColorMode: "dark",
+    useSystemColorMode: false,
 };
 
 const theme = extendTheme({ config, styles, components, fonts, colors });
