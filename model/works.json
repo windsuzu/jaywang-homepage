@@ -1,10 +1,264 @@
 [
     {
+        "type": "web",
+        "id": "react-framer-demo",
+        "title_zh": "React Framer Demo",
+        "title_en": "React Framer Demo",
+        "time": "2022",
+        "stack": "React.js, Framer-Motion, React-Router-Dom@v6",
+        "platform": "Web",
+        "source": "https://github.com/windsuzu/react-framer-demo",
+        "demo": "https://windsuzu.github.io/react-framer-demo",
+        "desc_zh": "簡單的 🍕 訂購介面網站，展示 Framer Motion 庫的使用方式，包含完整的 Framer Motion 教學。",
+        "desc_en": "A simple 🍕 ordering website showing how to use the Framer Motion library. It also contains tutorials for Framer Motion.",
+        "full_desc_zh": "這個 🍕 專案展示如何使用 framer-motion 讓網頁元素、頁面、Routes 動起來。在 Github 包含了完整的 framer-motion 教學與對應程式碼的動畫展示。",
+        "full_desc_en": "This 🍕 project shows how to use framer-motion to get web elements, pages, and routes moving. A complete tutorial on framer-motion and animations with corresponding source code are available on Github.",
+        "cover": "/images/works/react-framer-demo/cover.jpg",
+        "web_screenshots": [
+            "/images/works/react-framer-demo/w1.png",
+            "/images/works/react-framer-demo/w2.png",
+            "/images/works/react-framer-demo/w3.png",
+            "/images/works/react-framer-demo/w4.png",
+            "/images/works/react-framer-demo/w5.png"
+        ]
+    },
+    {
+        "type": "web",
+        "id": "react-router-demo",
+        "title_zh": "React Router Demo",
+        "title_en": "React Router Demo",
+        "time": "2022",
+        "stack": "React.js, Styled-Components, React-Router-Dom@v5-6, Firebase",
+        "platform": "Web",
+        "source": "https://github.com/windsuzu/react-router-demo",
+        "demo": "https://windsuzu.github.io/react-router-demo",
+        "desc_zh": "包含 Firebase 前後端的經典語錄網站，展示 react-router-dom 的使用，以及 react-router v5 與 v6 的教學。",
+        "desc_en": "A great quotations website that includes Firebase, mainly demonstrating the use of react-router-dom, and including tutorials for react-router v5 and v6.",
+        "full_desc_zh": "這個經典語錄專案主要展示如何使用 react-router-dom@v5 和 v6 讓一個 SPA (Single-Page Application) 專案能夠自由控制 URL 與頁面轉換。內容包含 Routes 邏輯、Link 與 NavLink、Nested Routes、透過 useParams, useLocation 存取 URL、手動或自動 navigation。另外也整理了近乎完整的 react-router-dom v5 和 v6 差別。",
+        "full_desc_en": "This Great Quotes project shows how to use react-router-dom@v5 and v6 to make a SPA (Single-Page Application) project freely control URL and page transitions. It includes Routes logic, Link and NavLink, Nested Routes, URL access through useParams, useLocation, imperative or automatic navigation, and a nearly complete list of the differences between react-router-dom v5 and v6.",
+        "cover": "/images/works/react-router-demo/cover.jpg",
+        "web_screenshots": [
+            "/images/works/react-router-demo/w1.png",
+            "/images/works/react-router-demo/w2.png",
+            "/images/works/react-router-demo/w3.png",
+            "/images/works/react-router-demo/w4.png",
+            "/images/works/react-router-demo/w5.png"
+        ],
+        "phone_screenshots": [
+            "/images/works/react-router-demo/m1.png",
+            "/images/works/react-router-demo/m2.png"
+        ]
+    },
+    {
+        "type": "web",
+        "id": "react-redux-demo",
+        "title_zh": "React Redux Demo",
+        "title_en": "React Redux Demo",
+        "time": "2022",
+        "stack": "React.js, Redux, @reduxjs/toolkit, react-redux, Firebase",
+        "platform": "Web",
+        "source": "https://github.com/windsuzu/react-redux-demo",
+        "demo": "https://windsuzu.github.io/react-redux-demo",
+        "desc_zh": "以 redux 實作購物車功能，處理狀態管理、同步及非同步任務。更有三種非同步任務的處理方式與教學。",
+        "desc_en": "A website with shopping cart functionality. It shows redux state management, handling synchronous and asynchronous tasks. It also teaches you three ways to handle asynchronous tasks.",
+        "full_desc_zh": "這個購物車專案使用 @reduxjs/toolkit 和 react-redux 來實作 redux 的狀態管理。專案中分別實作了同步與非同步任務的處理；同步任務處理單純的本地狀態、非同步任務處理資料庫等需要經過網路操作後改變的狀態；針對非同步任務，我們還設計了三種解決方法，分別為 component-based, action-creator-thunk, 以及 createAsyncThunk。",
+        "full_desc_en": "This project implements redux state management by using @reduxjs/toolkit and react-redux. We have implemented synchronous and asynchronous tasks respectively; Synchronous tasks handle purely local states, while asynchronous tasks handle states that are changed after some network operation (e.g. database). We have also designed three solutions for asynchronous tasks, namely component-based, action-creator-thunk, and createAsyncThunk.",
+        "cover": "/images/works/react-redux-demo/cover.jpg",
+        "web_screenshots": [
+            "/images/works/react-redux-demo/w1.png",
+            "/images/works/react-redux-demo/w2.png",
+            "/images/works/react-redux-demo/w3.png",
+            "/images/works/react-redux-demo/w4.png"
+        ],
+        "phone_screenshots": [
+            "/images/works/react-redux-demo/m1.png",
+            "/images/works/react-redux-demo/m2.png"
+        ]
+    },
+    {
+        "type": "web",
+        "id": "react-nextjs-demo",
+        "title_zh": "React Nextjs Demo",
+        "title_en": "React Nextjs Demo",
+        "time": "2022",
+        "stack": "React.js, NEXT.js, Vercel, SSG, SSR",
+        "platform": "Web",
+        "source": "https://github.com/windsuzu/nextjs-meetups",
+        "demo": "https://nextjs-meetups-pearl.vercel.app/",
+        "desc_zh": "以 NEXT.js 打造的聚會網站。展示並教學一些 NEXT.js 特色，例如 file-based routing, SSR, API routes 等。",
+        "desc_en": "A meetup website built with NEXT.js. It demonstrates and teaches several NEXT.js features, such as file-based routing, SSG/SSR, API routes, etc.",
+        "full_desc_zh": "這個聚會網站專案主要實作基礎的 NEXT.js 技術，例如文件目錄路由管理系統、SSG (static site generation) 和 SSR (server-side rendering)，以及利用 API routes 處理後端相關請求，是一個很適合入門 NEXT.js 的專案。",
+        "full_desc_en": "This meetup website project focuses on the implementation of basic NEXT.js features such as the file-based routing system, SSG (static site generation), SSR (server-side rendering), and the use of API routes to handle back-end related requests, making it a great introduction to NEXT.js.",
+        "cover": "/images/works/react-nextjs-demo/cover.jpg",
+        "web_screenshots": [
+            "/images/works/react-nextjs-demo/w1.png",
+            "/images/works/react-nextjs-demo/w2.png",
+            "/images/works/react-nextjs-demo/w3.png"
+        ]
+    },
+    {
+        "type": "web",
+        "id": "react-food-ordering",
+        "title_zh": "React Food Ordering",
+        "title_en": "React Food Ordering",
+        "time": "2022",
+        "stack": "React.js, Styled-Components, Firebase",
+        "platform": "Web",
+        "source": "https://github.com/windsuzu/react-food-ordering",
+        "demo": "https://windsuzu.github.io/react-food-ordering",
+        "desc_zh": "模擬食物點餐與購物車的網站。包含大量 React.js 的進階技巧，以及表單的驗證、處理與上傳實作。",
+        "desc_en": "A website that simulates food ordering and shopping carts. It includes lots of advanced skills of React.js, as well as validation, processing, and uploading forms.",
+        "full_desc_zh": "這個點餐購物車專案展示大量 React.js 進階技巧，例如 useReducer, useContext, forwardRef, useCallback, useMemo, 以及自製的 react hooks；另外也為您展示處理表單驗證的最佳實踐之一。",
+        "full_desc_en": "This food ordering and shopping cart project showcases several advanced React.js techniques, such as useReducer, useContext, forwardRef, useCallback, useMemo, and custom react hooks; in addition to showing you one of the best practices for handling form validation.",
+        "cover": "/images/works/react-food-ordering/cover.jpg",
+        "web_screenshots": [
+            "/images/works/react-food-ordering/w1.png",
+            "/images/works/react-food-ordering/w2.png",
+            "/images/works/react-food-ordering/w3.png"
+        ],
+        "phone_screenshots": [
+            "/images/works/react-food-ordering/m1.png",
+            "/images/works/react-food-ordering/m2.png"
+        ]
+    },
+    {
+        "type": "web",
+        "id": "react-bookkeeping",
+        "title_zh": "React Bookkeeping",
+        "title_en": "React Bookkeeping",
+        "time": "2022",
+        "stack": "React.js",
+        "platform": "Web",
+        "source": "https://github.com/windsuzu/react-bookkeeping",
+        "demo": "https://windsuzu.github.io/react-bookkeeping",
+        "desc_zh": "透過 React.js 實作的記帳介面，展示最基礎、重要的 React 觀念，包括 JSX 元件組成、狀態和 DOM Event、以及彈性的 React 設計。",
+        "desc_en": "A bookkeeping UI implemented with React.js to demonstrate the most fundamental yet important concepts of React.js, including JSX component composition, state and DOM Events, and flexible React design.",
+        "full_desc_zh": "這個記帳介面雖然簡單但展示 React.js 的基本核心概念，主要可以分為三大方向。首先為 JSX 概念，例如 props, styling, composition；再來是 State 和 DOM Event 的概念，例如 useState, two-way binding, state-lifting 等；最後則是彈性化設計概念，例如 stateful list, conditional content 等。",
+        "full_desc_en": "This is a simple bookkeeping app but it shows the core concepts of React.js, which can be divided into three directions. 1) JSX concepts such as props, styling, composition; 2) state and DOM event concepts such as useState, two-way binding, state-lifting; 3) flexible design concepts such as stateful list, conditional content.",
+        "cover": "/images/works/react-bookkeeping/cover.jpg",
+        "web_screenshots": [
+            "/images/works/react-bookkeeping/w1.png",
+            "/images/works/react-bookkeeping/w2.png"
+        ],
+        "phone_screenshots": [
+            "/images/works/react-bookkeeping/m1.png",
+            "/images/works/react-bookkeeping/m2.png"
+        ]
+    },
+    {
+        "type": "web",
+        "id": "react-gallery",
+        "title_zh": "React Gallery",
+        "title_en": "React Gallery",
+        "time": "2022",
+        "stack": "React.js, SCSS, React-Router-Dom@v6, Pexels API",
+        "platform": "Web",
+        "source": "https://github.com/windsuzu/react-gallery",
+        "demo": "https://windsuzu.github.io/react-gallery",
+        "desc_zh": "能夠透過 Pexels API 展示、搜尋與下載圖片的畫廊網站。",
+        "desc_en": "A gallery website where you can browse, search and download images through the Pexels API.",
+        "full_desc_zh": "React Gallery 主要利用 React.js 及 react-router 來實作一個圖片展示、搜尋、下載的網站。 網站中的所有圖片都是透過 Pexels API 從 Pexels 下載而來。 你可以在這個專案學到如何設計搜尋列、導入 API、分批載入大量圖片。",
+        "full_desc_en": "React Gallery uses React.js and react-router to implement a gallery in which you can browse, search and download images. All the images are accessed through the Pexels API. You can learn how to design the search bar, implement APIs, and load a lot of images in batches in this project.",
+        "cover": "/images/works/react-gallery/cover.jpg",
+        "web_screenshots": [
+            "/images/works/react-gallery/w1.png",
+            "/images/works/react-gallery/w2.png"
+        ],
+        "phone_screenshots": [
+            "/images/works/react-gallery/m1.png",
+            "/images/works/react-gallery/m2.png"
+        ]
+    },
+    {
+        "type": "mldl",
+        "id": "joint-semantic-phonetic-embedding",
+        "title_zh": "聯合語義語音詞嵌入",
+        "title_en": "Joint Semantic Phonetic Embedding",
+        "time": "2021",
+        "stack": "Python, PyTorch, RNN, Transformers, Huggingface, Lightning, Gensim, wandb",
+        "platform": "Jupyter Notebook",
+        "source": "https://github.com/windsuzu/Joint-Semantic-Phonetic-Embedding",
+        "desc_zh": "我的碩士論文－「以聯合語義語音詞嵌入強化中日文神經機器翻譯」",
+        "desc_en": "My Master's Thesis - “Improving Chinese-Japanese Neural Machine Translation with Joint Semantic-Phonetic Word Embedding”",
+        "full_desc_zh": "「以聯合語義語音詞嵌入強化中日文神經機器翻譯」是我的碩士論文。研究中分別將中文與日文的文字意義與發音符號嵌入至高維度向量空間，並將這些嵌入投入神經機器翻譯的訓練。我將其原始碼、論文內容、實驗結果、心智圖、背景知識的筆記等等，全部整合在 Github 上。",
+        "full_desc_en": "「Improving Chinese-Japanese Neural Machine Translation with Joint Semantic-Phonetic Word Embedding」is my master's thesis. In the study, we embed the semantic meaning and the phonetic notation of Chinese and Japanese into a high-dimensional vector space and use these embeddings in the training of neural machine translation. I have integrated the source code, paper, experimental results, mindmaps, notes on background knowledge, etc., all on Github.",
+        "cover": "/images/works/joint-semantic-phonetic-embedding/cover.jpg",
+        "web_screenshots": [
+            "/images/works/joint-semantic-phonetic-embedding/w1.png",
+            "/images/works/joint-semantic-phonetic-embedding/w2.png",
+            "/images/works/joint-semantic-phonetic-embedding/w3.png",
+            "/images/works/joint-semantic-phonetic-embedding/w4.png"
+        ]
+    },
+    {
+        "type": "mldl",
+        "id": "analysis-and-classification-of-thesis",
+        "title_zh": "論文機器閱讀之論文標註",
+        "title_en": "Analysis and Classification of Thesis",
+        "time": "2019-2020",
+        "stack": "Python, nltk, GloVe, PyTorch, TensorFlow2, RNN, Transformers, BERT",
+        "platform": "Jupyter Notebook",
+        "source": "https://github.com/windsuzu/AICUP-Analysis-and-Classification-of-Thesis",
+        "desc_zh": "AI CUP 2019 舉辦的人工智慧論文機器閱讀競賽之論文標註",
+        "desc_en": "AI CUP 2019 Competition - Analysis and Classification of Thesis",
+        "full_desc_zh": "這個專案來自 AI CUP 2019 所舉辦的論文機器閱讀競賽當中的論文標註部分。專案中包含大量 NLP 與 Deep Learning 的知識，從基本的 tokenizer, GRU, LSTM 觀念，到中級的 Embeddings, Word2Vec, GloVe 詞嵌入，以及進階的 ELMO, Attention, Transformer, BERT 等技巧。另外還有許多 data pre-processing 和 hyperparameters fine-tuning 的作法。",
+        "full_desc_en": "This is the annotated part for the paper machine reading competition organized by AI CUP. It contains a lot of knowledge about NLP and Deep Learning, from basic tokenizer, GRU, LSTM, BRNN concepts, to Embeddings, Word2Vec, GloVe word embeddings, and finally advanced to ELMO, Attention, Transformer, BERT, and other techniques. In addition, there are many data pre-processing and hyperparameters fine-tuning techniques.",
+        "cover": "/images/works/analysis-and-classification-of-thesis/cover.jpg",
+        "web_screenshots": [
+            "/images/works/analysis-and-classification-of-thesis/w1.jpg",
+            "/images/works/analysis-and-classification-of-thesis/w2.jpg",
+            "/images/works/analysis-and-classification-of-thesis/w3.jpg",
+            "/images/works/analysis-and-classification-of-thesis/w4.jpg"
+        ]
+    },
+    {
+        "type": "mldl",
+        "id": "deidentification-of-medical-data",
+        "title_zh": "醫病資料去識別化",
+        "title_en": "Deidentification of Medical Data",
+        "time": "2020",
+        "stack": "Python, PyTorch, TensorFlow2, absl-py",
+        "platform": "Jupyter Notebook",
+        "source": "https://github.com/windsuzu/AICUP-Deidentification-of-Medical-Data",
+        "desc_zh": "AI CUP 2020 舉辦的醫病資料去識別化競賽",
+        "desc_en": "AI CUP 2020 Competition - Deidentification of Medical Data",
+        "full_desc_zh": "這個專案來自 AICUP 競賽 - 醫病資料去識別化。該競賽使用從成功大學醫院收集的臨床對話和相關訪談的文字內容，這些文本的隱私內容和命名實體都是由人工標註的， 而 F1-Score 將被用來評估測試數據集上預測的正確性。 簡而言之，這個競賽就是中文的 NER (named-entity-recognition) 任務，我們必須在文字中識別出 18 種命名實體。 我們不只想要提升任務的表現，還想藉由該任務學習應用 design pattern 於一個 AI 專案。",
+        "full_desc_en": "This project is derived from the AICUP competition - Medical Data De-Identification. The text content of clinical conversations is collected from hospitals and the F1 score is used to assess the correctness of the predictions. In short, the competition is a Chinese NER (named-entity-recognition) task in which we have to identify 18 named entities. Not only do we want to improve the performance of the task, but we also want to learn how to apply design patterns to an ML project.",
+        "cover": "/images/works/deidentification-of-medical-data/cover.jpg",
+        "web_screenshots": [
+            "/images/works/deidentification-of-medical-data/w1.png",
+            "/images/works/deidentification-of-medical-data/w2.png"
+        ]
+    },
+    {
+        "type": "mldl",
+        "id": "robotic-navigation-and-exploration",
+        "title_zh": "機器導航與探索",
+        "title_en": "Robotic Navigation and Exploration",
+        "time": "2021",
+        "stack": "Python, PyTorch, OpenCV, Reinforcement Learning",
+        "platform": "Jupyter Notebook, Unity, JetBot",
+        "source": "https://github.com/windsuzu/Robotic-Navigation",
+        "desc_zh": "從路徑追蹤和規劃、SLAM、電腦視覺與強化學習了解自駕車原理，以影像辨識技術操縱 NVIDIA JetBot。",
+        "desc_en": "Understanding self-driving principles from path tracking and planning, SLAM, computer vision, reinforcement learning, and operating NVIDIA JetBot with image recognition technology.",
+        "full_desc_zh": "本專案為成功大學 Robotic Navigation and Exploration (CS562000) 的課程整理；目標為了解自駕車原理，最終能夠使用影像辨識技術操縱 NVIDIA JetBot。專案細分為 6 個實作的 lab 以及 NVIDIA JetBot 的模擬與真實世界測試。這些 lab 包含動力模型、路徑規劃與追蹤、SLAM、電腦視覺、強化學習。",
+        "full_desc_en": "This project is a compilation of the Robotic Navigation and Exploration (CS562000) course at National Cheng Kung University; the goal is to understand the principles of self-driving vehicles and eventually to be able to operate the NVIDIA JetBot using image recognition technology. The project is divided into 6 labs and NVIDIA JetBot simulations and real-world tests. The labs include kinetic modeling, path planning/tracking, SLAM, computer vision, and reinforcement learning.",
+        "cover": "/images/works/robotic-navigation-and-exploration/cover.jpg",
+        "web_screenshots": [
+            "/images/works/robotic-navigation-and-exploration/w1.png",
+            "/images/works/robotic-navigation-and-exploration/w2.png",
+            "/images/works/robotic-navigation-and-exploration/w3.png",
+            "/images/works/robotic-navigation-and-exploration/w4.png"
+        ]
+    },
+    {
+        "type": "mobile",
         "id": "flutterpedia",
-        "title": "Flutterpedia",
+        "title_zh": "Flutterpedia",
+        "title_en": "Flutterpedia",
         "time": "2019",
         "stack": "Flutter",
-        "platform": "iOS, Android, Desktop, Web",
+        "platform": "Android, iOS",
         "source": "https://github.com/windsuzu/Flutterpedia",
         "desc_zh": "Flutterpedia 包含各種實作 Flutter 會用到的 widgets 和技術。不但含有各種詳細解說，也能作為工具箱使用。",
         "desc_en": "Flutterpedia contains widgets and technologies that are used to implement Flutter. Not only does it contain detailed tutorials, but it can also be used as a toolkit.",
@@ -15,7 +269,140 @@
             "/images/works/flutterpedia/w1.png",
             "/images/works/flutterpedia/w2.png",
             "/images/works/flutterpedia/w3.png"
-        ],
-        "phone_screenshots": []
+        ]
+    },
+    {
+        "type": "mobile",
+        "id": "design-pattern",
+        "title_zh": "設計模式",
+        "title_en": "Design Pattern",
+        "time": "2019",
+        "stack": "OOP, Dart, Flutter",
+        "platform": "Web, Android, iOS, Desktop",
+        "source": "https://github.com/windsuzu/Design-Pattern",
+        "desc_zh": "基於 Dart 的設計模式教學。包含軟體設計的核心原則，例如 SOLID, DRY，還有 23 種設計模式，並且該教學還可以編譯成一個 Flutter App。",
+        "desc_en": "Dart-based design patterns tutorial. Includes core design principles such as SOLID, DRY, and 23 design patterns, and the tutorial can also be compiled into a Flutter App.",
+        "full_desc_zh": "這是一個以 Dart 作為程式語言的 \"設計模式\" 教學，並且可以被編譯成一個 Flutter 應用程式。在這個教學中會先提到一些核心設計原則，例如 SOLID, DRY 等。接著，你可以從三大方向學習 23 種設計模式，分別為 Creational, Structural 和 Behaviroal。",
+        "full_desc_en": "It is a tutorial of \"design pattern\" written in Dart that can also be compiled into a Flutter app. We have some principles such as SOLID, DRY before the design pattern. Then, we have 23 patterns divided into 3 categories: Creational, Structural, and Behavioral design patterns.",
+        "cover": "/images/works/design-pattern/cover.jpg",
+        "web_screenshots": [
+            "/images/works/design-pattern/w1.png",
+            "/images/works/design-pattern/w2.png",
+            "/images/works/design-pattern/w3.png"
+        ]
+    },
+    {
+        "type": "mobile",
+        "id": "ibet-lottery",
+        "title_zh": "iBET Lottery",
+        "title_en": "iBET Lottery",
+        "time": "2019",
+        "stack": "Dart, Flutter, Firebase",
+        "platform": "Android, iOS",
+        "android": "https://play.google.com/store/apps/details?id=tw.igroup.malaysia_lottery",
+        "ios": "https://apps.apple.com/hk/app/ibet-lottery/id1474622749",
+        "desc_zh": "一個展示馬來西亞樂透 4D live 開獎結果的 App。包含各種彩卷的即時開獎號碼、可以輸入夢境解夢號碼、以及含有精緻動畫的隨機號碼產生器。",
+        "desc_en": "An Android/iOS app displaying Malaysia 4D live lottery results, including real-time lottery numbers, the ability to enter dreams to obtain numbers, and a random number generator with delicate animations.",
+        "full_desc_zh": "iBET Lottery 是用 Flutter 打造的雙平台 App，除了提供用戶獲得馬來西亞 4d live 最新開獎資訊外，還提供夢境搜尋、Lucky Spin 等功能。這個專案在 Flutter 框架下擁有 60fps 的滑順動畫、可透過 i18n 技術切換語言、採用 MobX 進行狀態管理、並使用 CodeMagic 維護 CI/CD。",
+        "full_desc_en": "iBET Lottery is a cross-platform app built with Flutter, which not only provides users with the latest Malaysia 4d live lottery information but also provides dream search, Lucky Spin, and other functions. The project has 60fps smooth animation under Flutter framework, language switching through i18n, state management by MobX, and CI/CD maintenance by CodeMagic.",
+        "cover": "/images/works/ibet-lottery/cover.jpg",
+        "phone_screenshots": [
+            "/images/works/ibet-lottery/m1.jpg",
+            "/images/works/ibet-lottery/m2.jpg",
+            "/images/works/ibet-lottery/m3.jpg",
+            "/images/works/ibet-lottery/m4.jpg",
+            "/images/works/ibet-lottery/m5.jpg",
+            "/images/works/ibet-lottery/m6.jpg"
+        ]
+    },
+    {
+        "type": "mobile",
+        "id": "bonzer",
+        "title_zh": "BONZER AUTO DETAILING",
+        "title_en": "BONZER AUTO DETAILING",
+        "time": "2018",
+        "stack": "Firebase, Kotlin, Swift",
+        "platform": "Android, iOS",
+        "android": "https://goo.gl/L5Co7N",
+        "ios": "https://goo.gl/hqgewJ",
+        "desc_zh": "BONZER AUTO DETAILING 的專屬會員 App，會員參加 DIY 鍍膜教學，並分享在洗車維護時的照片。",
+        "desc_en": "The exclusive member app of BONZER AUTO DETAILING, where members participate in DIY coating instruction and share photos during car wash maintenance.",
+        "full_desc_zh": "BONZER App 提供用戶與管理員兩種不同的介面，用戶在經過管理員的邀請後，能夠在 App 上依照地理位置上傳並分享汽車的維護照片。這個 App 使用 RxAndroid, RxSwift 來實作 Observer 與 MVVM 架構，並且整合了大量 Firebase 的功能，例如 Auth, Database, Storage, Messaging 等，是一個完整的全端專案。",
+        "full_desc_en": "BONZER App provides two different interfaces for users and administrators. Users can upload and share photos of car maintenance by geographic location on the app after being invited by the administrator. This app uses RxAndroid, RxSwift to implement Observer and MVVM architecture, and integrates a lot of Firebase features such as Auth, Database, Storage, Messaging, etc. It is a complete full-stack project.",
+        "cover": "/images/works/bonzer/cover.jpg",
+        "phone_screenshots": [
+            "/images/works/bonzer/m1.png",
+            "/images/works/bonzer/m2.png",
+            "/images/works/bonzer/m3.png",
+            "/images/works/bonzer/m4.png"
+        ]
+    },
+    {
+        "type": "mobile",
+        "id": "event-register-npu",
+        "title_zh": "澎湖科大活動報名系統",
+        "title_en": "NPU Event Registration System",
+        "time": "2018",
+        "stack": "Kotlin, Swift, Firebase",
+        "platform": "Android, iOS",
+        "android": "/",
+        "ios": "/",
+        "desc_zh": "一個為澎湖科大所設計的活動報名 App，學生可以在 App 上進行活動報名、現場點名等。",
+        "desc_en": "An event registration app designed for Penghu University of Science and Technology, where students can register for events and make on-site roll call, etc.",
+        "full_desc_zh": "這是一個專門為澎湖科大設計的活動報名系統，學生可以在 App 上獲得活動資訊、報名、現場點名等。這是我初次在設計 Android, iOS 時投入 RxAndroid, RxSwift 來實作觀察者設計模式與 NVVM 架構。",
+        "full_desc_en": "This is an event registration system specially designed for Penghu University of Science and Technology, where students can get event information, registration, and on-site roll call on the app. This is the first time I implement the observer pattern and NVVM architecture by using RxAndroid and RxSwift in Android and iOS.",
+        "cover": "/images/works/event-register-npu/cover.jpg",
+        "phone_screenshots": [
+            "/images/works/event-register-npu/m1.png",
+            "/images/works/event-register-npu/m2.png",
+            "/images/works/event-register-npu/m3.png",
+            "/images/works/event-register-npu/m4.png"
+        ]
+    },
+    {
+        "type": "mobile",
+        "id": "counselling",
+        "title_zh": "會心微笑諮商 App",
+        "title_en": "Smile Counselling App",
+        "time": "2017-2018",
+        "stack": "Kotlin, Swift, Firebase",
+        "platform": "Android, iOS",
+        "android": "https://play.google.com/store/apps/details?id=com.triotechno.chihlee_counseling_android",
+        "ios": "https://apps.apple.com/us/app/會心微笑諮商app/id1273165387",
+        "desc_zh": "一個提供給學生進行各項諮商服務申請與報名的校園諮商 APP。",
+        "desc_en": "A campus counseling app for students to apply and register for various counseling services.",
+        "full_desc_zh": "會心微笑諮商讓校園裡有困難的學生能夠在手機上快速申請諮商等服務。實作的困難點在於需要讓學生填寫許多表單，所以要設計許多表單的自動填寫、驗證，還有與後端的資料介接。除了實作 App 部分外，我也採用 Firebase Functions 實作推播功能。",
+        "full_desc_en": "The Smile Counselling Service allows students on campus with difficulties to quickly apply for counseling and other services on their mobile phones. The difficulty of the implementation is that there are many forms for students to fill out, so I had to design many of them to be filled out automatically, validated, and connected to the back-end data. In addition to the App part, I also used Firebase Functions to implement the push notification function.",
+        "cover": "/images/works/counselling/cover.jpg",
+        "phone_screenshots": [
+            "/images/works/counselling/m1.png",
+            "/images/works/counselling/m2.png",
+            "/images/works/counselling/m3.png",
+            "/images/works/counselling/m4.png"
+        ]
+    },
+    {
+        "type": "mobile",
+        "id": "community",
+        "title_zh": "彰化社區照顧關懷系統",
+        "title_en": "Changhua Community Care and Concern System",
+        "time": "2017",
+        "stack": "Java, Swift",
+        "platform": "Android, iOS",
+        "android": "https://play.google.com/store/apps/details?id=com.jaylearning.community",
+        "ios": "https://apps.apple.com/us/app/彰化縣政府社會處-社區照顧關懷系統2017版/id980995968?platform=iphone",
+        "desc_zh": "與彰化縣政府合作，提供社區相關工作人員一個方便記錄長者身體狀況的社區關懷 App。",
+        "desc_en": "In cooperation with the Changhua County Government, we provide a community care app for community workers to easily record the physical condition of the elderly.",
+        "full_desc_zh": "這是我第一個與後端工程師合作開發的 Android 及 iOS App，是給彰化縣志工進行社區探訪關懷時使用的記錄平台。由於 App 會被下載在共用平板，且會遇到無網路問題，所以需要設計成多個帳號共用，並且將資料儲存在本地 SQLite 等待有網路時進行同步。",
+        "full_desc_en": "This is my first Android and iOS app developed in collaboration with the back-end engineers. It is a documenting platform for volunteers from Changhua County to use when they visit and provide care for the community. Since the app will be downloaded on a shared tablet and will encounter no network problems, it is designed to be shared by multiple accounts and to store the data in local SQLite for synchronization when the network is available.",
+        "cover": "/images/works/community/cover.jpg",
+        "phone_screenshots": [
+            "/images/works/community/m1.png",
+            "/images/works/community/m2.png",
+            "/images/works/community/m3.png",
+            "/images/works/community/m4.png",
+            "/images/works/community/m5.png",
+            "/images/works/community/m6.png"
+        ]
     }
 ]

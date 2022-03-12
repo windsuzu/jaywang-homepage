@@ -4,7 +4,13 @@ import { Title, Meta, WorkImage } from "../../components/works/workdetail";
 import Paragraph from "../../components/ui/Paragraph";
 import { useRouter } from "next/router";
 import {
+    DemoButton,
+    GooglePlayButton,
+    AppleStoreButton,
+} from "../../components/ui/StoreButton";
+import {
     Badge,
+    Box,
     Container,
     Link,
     List,
@@ -15,7 +21,8 @@ import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 const WorkDetailPage = (props) => {
     const {
-        title,
+        title_zh,
+        title_en,
         time,
         platform,
         stack,
@@ -25,11 +32,15 @@ const WorkDetailPage = (props) => {
         cover,
         web_screenshots,
         phone_screenshots,
+        demo,
+        android,
+        ios,
     } = props.data;
 
     const router = useRouter();
     const { locale } = router;
     const fullDesc = locale === "zh" ? full_desc_zh : full_desc_en;
+    const title = locale === "zh" ? title_zh : title_en;
 
     return (
         <Page title={title}>
@@ -53,7 +64,7 @@ const WorkDetailPage = (props) => {
                     {source && (
                         <ListItem>
                             <Meta>Source</Meta>
-                            <Link href={source}>
+                            <Link href={source} target="_blank">
                                 {source}
                                 <ExternalLinkIcon mx="2px" />
                             </Link>
@@ -62,6 +73,15 @@ const WorkDetailPage = (props) => {
                 </List>
 
                 <Paragraph>{fullDesc}</Paragraph>
+
+                {demo && <DemoButton link={demo} />}
+
+                {android && ios && (
+                    <SimpleGrid columns={2} gap={6}>
+                        <GooglePlayButton link={android} />
+                        <AppleStoreButton link={ios} />
+                    </SimpleGrid>
+                )}
 
                 {cover && (
                     <WorkImage src={cover} alt={title} my={6} w={720} h={400} />
