@@ -5,6 +5,46 @@
         "title_en": "Anki Full Guide (basics, templates, plugins, tools, practice)",
         "time": "2021",
         "url": "https://windsuzu.medium.com/anki-%E5%85%A8%E6%94%BB%E7%95%A5-%E5%9F%BA%E7%A4%8E-%E6%A8%A1%E6%9D%BF-%E6%8F%92%E4%BB%B6-%E5%B7%A5%E5%85%B7%E5%88%86%E4%BA%AB-6dc4eb15f51c",
-        "cover": "/images/posts/anki/cover.jpg"
+        "cover": "/images/posts/anki.jpg"
+    },
+    {
+        "id": "anki",
+        "title_zh": "我的 Gitbook (碩士班期間筆記)",
+        "title_en": "My Gitbook (Notes during Master)",
+        "time": "2019-2021",
+        "url": "https://sejkai.gitbook.io/academic/",
+        "cover": "/images/posts/gitbook.png"
+    },
+    {
+        "id": "python-universe",
+        "title_zh": "Python Universe (完整的 Python 指南)",
+        "title_en": "Python Universe (Complete Python guide)",
+        "time": "2020",
+        "url": "https://github.com/windsuzu/PythonUniverse",
+        "cover": "/images/posts/python.png"
+    },
+    {
+        "id": "rxjava-rxandroid",
+        "title_zh": "初入 RxJava 和 RxAndroid",
+        "title_en": "Getting Started with RxJava and RxAndroid",
+        "time": "2017",
+        "url": "https://windsuzu.medium.com/初入-rxjava-和-rxandroid-af1666944530",
+        "cover": "/images/posts/rxjava.png"
+    },
+    {
+        "id": "di",
+        "title_zh": "什麼是依賴注入 Dependency Injection (DI)? 什麼是 Dagger2 ?",
+        "title_en": "What is Dependency Injection (DI)? What is Dagger2 ?",
+        "time": "2017",
+        "url": "https://windsuzu.medium.com/什麼是依賴注入-dependency-injection-di-什麼是-dagger2-d9060a7681d6",
+        "cover": "/images/posts/di.png"
+    },
+    {
+        "id": "mvc-mvp-mvvm",
+        "title_zh": "在 Android 設計中的 MVC, MVP, MVVM 架構",
+        "title_en": "MVC, MVP, MVVM architectures in Android design",
+        "time": "2017",
+        "url": "https://windsuzu.medium.com/練習在-android-設計上的-mvc-mvp-mvvm-架構-378e02b0f4da",
+        "cover": "/images/posts/mvc-mvp-mvvm.png"
     }
 ]
