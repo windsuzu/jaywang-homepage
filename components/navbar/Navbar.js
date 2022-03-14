@@ -63,7 +63,7 @@ const Navbar = (props) => {
                     <LinkItem href="/works">Works</LinkItem>
                     <LinkItem href="/posts">Posts</LinkItem>
                     <LinkItem
-                        href="https://github.com/windsuzu/"
+                        href="https://github.com/windsuzu/jaywang-homepage"
                         display="inline-flex"
                         alignItems="center"
                         style={{ gap: 4 }}
@@ -90,7 +90,7 @@ const Navbar = (props) => {
                                 <Item href="/works" label="Works" />
                                 <Item href="/posts" label="Posts" />
                                 <Item
-                                    href="https://github.com/windsuzu"
+                                    href="https://github.com/windsuzu/jaywang-homepage"
                                     label="Source"
                                 />
                             </MenuList>
