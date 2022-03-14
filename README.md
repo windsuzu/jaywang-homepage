@@ -1,34 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://www.jaywang.xyz">
+    <img src="assets/logo.png" alt="Logo" height="120">
+  </a>
 
-## Getting Started
+  <h3 align="center">Jay's Homepage</h3>
+  <p align="center">This homepage is designed based on craftzdog's tutorial and has additional data models and i18n features.
+    <br />
+    <a href="https://www.jaywang.xyz">View Demo</a>
+    ·
+    <a href="https://github.com/windsuzu/jaywang-homepage/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/windsuzu/jaywang-homepage/issues">Request Feature</a>
+  </p>
+</p>
 
-First, run the development server:
+<!-- ABOUT THE PROJECT -->
+## About
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<table>
+<tr>
+<td>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+這個專案基於 [Takuya Matsuyama - craftzdog](https://github.com/craftzdog) 的教學 [[How to build a portfolio website using Next.js, Chakra UI, Framer Motion, and Three.js]](https://www.youtube.com/watch?v=bSMZgXzC9AA) 加以設計，並將資料模型 (data) 與頁面元件 (page component) 分開儲存，還額外添加了 i18n 與轉換語言功能。
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+**Built With**
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+* React, Next.js, i18n
+* Chakra UI
+* Framer Motion
+* Three.js
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+</td>
+</tr>
+</table>
 
-## Learn More
+## Preview
 
-To learn more about Next.js, take a look at the following resources:
+<p align="center">
+  <img src="assets/screenshot-web-1.png" width=71%>
+  <img src="assets/screenshot-mobile-1.png" width=21.5%>
+  <img src="assets/screenshot-web-2.png" width=71%>
+  <img src="assets/screenshot-mobile-2.png" width=21.5%>
+</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Distributed under the MIT License. See [LICENSE](https://github.com/windsuzu/jaywang-homepage/blob/main/LICENSE) for more information.
 
-## Deploy on Vercel
+## Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Reach out to the maintainer at one of the following places:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* [GitHub discussions](https://github.com/windsuzu/jaywang-homepage/discussions)
+* The email which is located [in GitHub profile](https://github.com/windsuzu)
+
+## Acknowledgements
+
+* [Takuya Matsuyama - craftzdog](https://github.com/craftzdog)

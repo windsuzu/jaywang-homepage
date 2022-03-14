@@ -22,7 +22,7 @@ const LangToggleButton = () => {
         setButtonKey((prev) => prev + 1);
         const locale = lang === "zh" ? "en" : "zh";
         setLang(locale);
-        router.push({ pathname, query }, asPath, { locale });
+        router.push({ pathname, query }, asPath, { locale, scroll: false });
     };
 
     return (
@@ -30,10 +30,10 @@ const LangToggleButton = () => {
             <motion.div
                 key={buttonKey}
                 style={{ display: "inline-block" }}
-                initial={{ rotateY: -360, opacity: 0 }}
-                animate={{ rotate: 0, opacity: 1 }}
-                transition={{ duration: 0.3, ease: "easeInOut" }}
-                exit={{ rotateY: 360, opacity: 0 }}
+                initial={{ x: -20, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.2 }}
+                exit={{ x: 20, opacity: 0 }}
             >
                 <IconButton
                     aria-label="Change Language"
