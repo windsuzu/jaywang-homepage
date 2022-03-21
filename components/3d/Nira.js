@@ -1,5 +1,12 @@
 import { useState, useEffect, useRef, useCallback } from "react";
-import * as THREE from "three";
+import {
+    Vector3,
+    Scene,
+    WebGLRenderer,
+    sRGBEncoding,
+    OrthographicCamera,
+    AmbientLight,
+} from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { loadGLTFModel } from "../../libs/model";
 import { NiraSpinner, NiraContainer } from "./NiraLoader";
@@ -13,15 +20,15 @@ const Nira = () => {
     const [loading, setLoading] = useState(true);
     const [renderer, setRenderer] = useState();
     const [_camera, setCamera] = useState();
-    const [target] = useState(new THREE.Vector3(0.1, 0.8, 0.1));
+    const [target] = useState(new Vector3(0.1, 0.8, 0.1));
     const [initialCameraPosition] = useState(
-        new THREE.Vector3(
+        new Vector3(
             20 * Math.sin(0.2 * Math.PI),
             10,
             50 * Math.cos(0.2 * Math.PI)
         )
     );
-    const [scene] = useState(new THREE.Scene());
+    const [scene] = useState(new Scene());
     const [_controls, setControls] = useState();
 
     const handleWindowResize = useCallback(() => {
@@ -40,18 +47,18 @@ const Nira = () => {
             const scW = container.clientWidth;
             const scH = container.clientHeight;
 
-            const renderer = new THREE.WebGLRenderer({
+            const renderer = new WebGLRenderer({
                 antialias: true,
                 alpha: true,
             });
             renderer.setPixelRatio(window.devicePixelRatio);
             renderer.setSize(scW, scH);
-            renderer.outputEncoding = THREE.sRGBEncoding;
+            renderer.outputEncoding = sRGBEncoding;
             container.appendChild(renderer.domElement);
             setRenderer(renderer);
 
             const scale = scH * 0.001 + 1.6;
-            const camera = new THREE.OrthographicCamera(
+            const camera = new OrthographicCamera(
                 -scale,
                 scale,
                 scale,
@@ -62,9 +69,6 @@ const Nira = () => {
             camera.position.copy(initialCameraPosition);
             camera.lookAt(target);
             setCamera(camera);
-
-            const ambientLight = new THREE.AmbientLight(0xcccccc, 1);
-            scene.add(ambientLight);
 
             const controls = new OrbitControls(camera, renderer.domElement);
             controls.autoRotate = true;

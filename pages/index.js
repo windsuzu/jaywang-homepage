@@ -1,19 +1,18 @@
-import {
-    Box,
-    Container,
-    Heading,
-    useColorModeValue,
-    Image,
-} from "@chakra-ui/react";
+import { Box, Container, Heading, useColorModeValue } from "@chakra-ui/react";
 import { useRouter } from "next/router";
-import InterestSection from "../components/about/InterestSection";
-import BioSection from "../components/about/BioSection";
-import WhoSection from "../components/about/WhoSection";
-import WebSection from "../components/about/WebSection";
-import AckSection from "../components/about/AckSection";
 import Page from "../components/layouts/Page";
 import { zh } from "../locales/zh";
 import { en } from "../locales/en";
+import Image from "next/image";
+import dynamic from "next/dynamic";
+
+const InterestSection = dynamic(() =>
+    import("../components/about/InterestSection")
+);
+const BioSection = dynamic(() => import("../components/about/BioSection"));
+const WhoSection = dynamic(() => import("../components/about/WhoSection"));
+const WebSection = dynamic(() => import("../components/about/WebSection"));
+const AckSection = dynamic(() => import("../components/about/AckSection"));
 
 export default function Home() {
     const router = useRouter();

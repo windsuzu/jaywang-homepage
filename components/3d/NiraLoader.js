@@ -1,5 +1,5 @@
 import { Box, Spinner } from "@chakra-ui/react";
-import React, { forwardRef } from "react";
+import { forwardRef } from "react";
 
 export const NiraSpinner = () => (
     <Spinner
