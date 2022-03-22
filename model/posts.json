@@ -1,5 +1,21 @@
 [
     {
+        "id": "fe-interview",
+        "title_zh": "前端工程師需要知道的 40 個小知識",
+        "title_en": "40 things you need to know as a front-end developer",
+        "time": "2022",
+        "url": "https://windsuzu.medium.com/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84-40-%E5%80%8B%E5%B0%8F%E7%9F%A5%E8%AD%98-625b31cf3271",
+        "cover": "/images/posts/fe-interview.png"
+    },
+    {
+        "id": "css-centering",
+        "title_zh": "13 種 CSS 置中的方式 (with SCSS)",
+        "title_en": "13 ways of centering things in CSS (with SCSS)",
+        "time": "2022",
+        "url": "https://windsuzu.medium.com/13-%E7%A8%AE-css-%E7%BD%AE%E4%B8%AD%E7%9A%84%E6%96%B9%E5%BC%8F-with-scss-9e779859cbe0",
+        "cover": "/images/posts/css-centering.jpg"
+    },
+    {
         "id": "anki",
         "title_zh": "Anki 全攻略 (基礎、模板、插件、工具、實戰)",
         "title_en": "Anki Full Guide (basics, templates, plugins, tools, practice)",
@@ -8,7 +24,7 @@
         "cover": "/images/posts/anki.jpg"
     },
     {
-        "id": "anki",
+        "id": "gitbook",
         "title_zh": "我的 Gitbook (碩士班期間筆記)",
         "title_en": "My Gitbook (Notes during Master)",
         "time": "2019-2021",
