@@ -1,6 +1,30 @@
 [
     {
         "type": "web",
+        "id": "airbnb-clone",
+        "title_zh": "Airbnb Clone",
+        "title_en": "Airbnb Clone",
+        "time": "2022",
+        "stack": "TypeScript, Next.js, TailwindCSS v3, MapBox, Framer-Motion, React-date-range",
+        "platform": "Web",
+        "source": "https://github.com/windsuzu/airbnb-clone",
+        "demo": "https://airbnb-clone-gamma-livid.vercel.app/",
+        "desc_zh": "複製 Airbnb 網站，使用 TypeScript, Nextjs, TailwindCSS, MapBox。",
+        "desc_en": "Replicate Airbnb website using TypeScript, Nextjs, TailwindCSS, MapBox.",
+        "full_desc_zh": "這是使用 TypeScript 所寫的 Airbnb 複製專案。專案架構和介面採用 Next.js / TailwindCSS v3 構建。另外，還使用了 framer-motion 與 bar-of-progress 製作頁面動畫；react-date-range 製作日期範圍選擇器；以及 react-map-gl 導入 Mapbox 地圖模組。",
+        "full_desc_en": "An Airbnb clone project written in TypeScript. The structure and UI are built with NEXT.js / TailwindCSS v3. There are also animations using framer-motion, bar-of-progress, a practical search bar using react-date-range, and MapBox integration using react-map-gl.",
+        "cover": "/images/works/airbnb-clone/cover.jpg",
+        "web_screenshots": [
+            "/images/works/airbnb-clone/w2.png",
+            "/images/works/airbnb-clone/w3.png"
+        ],
+        "phone_screenshots": [
+            "/images/works/airbnb-clone/m1.png",
+            "/images/works/airbnb-clone/m2.png"
+        ]
+    },
+    {
+        "type": "web",
         "id": "react-framer-demo",
         "title_zh": "React Framer Demo",
         "title_en": "React Framer Demo",
