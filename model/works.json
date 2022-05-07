@@ -1,6 +1,49 @@
 [
     {
         "type": "web",
+        "id": "youtube-search-clone",
+        "title_zh": "Youtube Search Clone",
+        "title_en": "Youtube Search Clone",
+        "time": "2022",
+        "stack": "React, TypeScript, TailwindCSS, React-Router-Dom, React-Infinite-Scroller",
+        "platform": "Web",
+        "source": "https://github.com/windsuzu/youtube-search-clone",
+        "demo": "https://windsuzu.github.io/youtube-search-clone/",
+        "desc_zh": "複製 Youtube 搜索功能，使用 React, TypeScript, TailwindCSS, React-Router-Dom, React-Infinite-Scroller",
+        "desc_en": "Replicate Youtube search function using TypeScript, TailwindCSS, React-Router-Dom, React-Infinite-Scroller.",
+        "cover": "/images/works/youtube-search-clone/cover.png",
+        "full_desc_zh": "一個用 React、TypeScript、React-Router、TailwindCSS 和 React-Infinite-Scroller 複製的 Youtube 搜索功能專案。 用戶可以通過 Youtube-Data-API V3 在專案中搜尋 Youtube 影片。 這個項目的主要目的是在 react 中實現無限滾動。 在這個項目中，我們通過將 react-infinite-scroller 與我們的 custom hook - useQuery 結合起來實現了無限滾動，並使用從 API 中所獲得的 nextPageToken 來載入更多影片。",
+        "full_desc_en": "A Youtube search function clone project built with React, TypeScript, React-Router, TailwindCSS, and React-Infinite-Scroller. Users can search for videos on Youtube through Youtube-Data-API V3 with a quota of 100 times a day. The main takeaway from this project is how to implement infinite scroll in react. In this project, we achieve infinite scrolling by combining react-infinite-scroller with our custom hook useQuery to load more videos with the nextPageToken obtained from the previous api call.",
+        "web_screenshots": [
+            "/images/works/youtube-search-clone/w1.png",
+            "/images/works/youtube-search-clone/w2.png"
+        ],
+        "phone_screenshots": [
+            "/images/works/youtube-search-clone/m1.png",
+            "/images/works/youtube-search-clone/m2.png"
+        ]
+    },
+    {
+        "type": "web",
+        "id": "spotify-clone",
+        "title_zh": "Spotify Clone",
+        "title_en": "Spotify Clone",
+        "time": "2022",
+        "stack": "TypeScript, Redux, Next.js, TailwindCSS, NextAuth",
+        "platform": "Web",
+        "source": "https://github.com/windsuzu/spotify-clone",
+        "demo": "https://spotify-clone-phi-eight.vercel.app/",
+        "desc_zh": "複製 Spotify 選歌功能，使用 TypeScript, Redux, Nextjs, TailwindCSS 和 NextAuth",
+        "desc_en": "Replicate Spotify songs picker using TypeScript, Redux, Nextjs, TailwindCSS and NextAuth",
+        "full_desc_zh": "一個用 TypeScript、React/Redux、Nextjs、TailwindCSS 等構建的 Spotify 專案。用戶可以通過 NextAuth，並通過spotify-web-api-node 獲得 Spotify 的權限和控制 API。 普通用戶可以在這個網站上看到他們的歌曲列表，高級用戶可以在這個網站上直接控制他們的歌曲播放和音量。",
+        "full_desc_en": "A Spotify clone project built with TypeScript, React/Redux, Nextjs, TailwindCSS, etc. Users can log into Spotify with NextAuth and get Spotify's permissions and control API through spotify-web-api-node. The general users can see their song list on this site, and Premium level users can control the playback of their songs and volume directly on this site.",
+        "cover": "/images/works/spotify-clone/cover.png",
+        "web_screenshots": [
+            "/images/works/spotify-clone/w1.png"
+        ]
+    },
+    {
+        "type": "web",
         "id": "airbnb-clone",
         "title_zh": "Airbnb Clone",
         "title_en": "Airbnb Clone",
