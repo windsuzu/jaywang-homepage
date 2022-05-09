@@ -32,8 +32,8 @@ const Layout = (props) => {
                 <title>Homepage - Jay Wang</title>
             </Head>
             <Navbar />
-            <Container maxW="container.md" pt={14}>
-                <LazyNira />
+            <Container maxW="container.md" pt={20}>
+                {/* <LazyNira /> */}
                 {props.children}
                 <Footer />
             </Container>
