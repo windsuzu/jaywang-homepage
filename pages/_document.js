@@ -6,7 +6,15 @@ export default class Document extends NextDocument {
     render() {
         return (
             <Html lang="en">
-                <Head />
+                <Head>
+                    <link
+                        rel="preload"
+                        href="/fonts/MPLUSRounded1c-Regular.ttf"
+                        as="font"
+                        type="font/ttf"
+                        crossOrigin=""
+                    />
+                </Head>
                 <body>
                     <ColorModeScript
                         initialColorMode={theme.config.initialColorMode}

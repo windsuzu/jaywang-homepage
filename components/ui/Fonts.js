@@ -1,6 +1,12 @@
 const Fonts = () => (
     <style jsx global>{`
-        @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;700&display=swap");
+        @font-face {
+            src: url("/fonts/MPLUSRounded1c-Regular.ttf");
+            font-family: "M PLUS Rounded 1c";
+            font-style: normal;
+            font-weight: 400;
+            font-display: "swap";
+        }
     `}</style>
 );
 export default Fonts;
